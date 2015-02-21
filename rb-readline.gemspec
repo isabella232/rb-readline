@@ -7,21 +7,21 @@ require "rbreadline/version"
 
 spec = Gem::Specification.new do |s|
   # basic information
-  s.name        = "rb-readline"
+  s.name        = "rb-readline-r7"
   s.version     = RbReadline::RB_READLINE_VERSION
   s.platform    = Gem::Platform::RUBY
 
   # description and details
-  s.summary     = 'Pure-Ruby Readline Implementation'
-  s.description = "The readline library provides a pure Ruby implementation of the GNU readline C library, as well as the Readline extension that ships as part of the standard library."
+  s.summary     = 'Pure-Ruby Readline Implementation (Rapid7 Fork)'
+  s.description = "The readline library provides a pure Ruby implementation of the GNU readline C library, as well as the Readline extension that ships as part of the standard library. This fork is maintained by Rapid7 for use with the Metasploit Framework"
 
   # project information
-  s.homepage          = 'http://github.com/ConnorAtherton/rb-readline'
+  s.homepage          = 'http://github.com/rapid7/rb-readline'
   s.licenses          = ['BSD']
 
   # author and contributors
-  s.authors     = ['Park Heesob', 'Daniel Berger', 'Luis Lavena', 'Connor Atherton']
-  s.email       = ['phasis@gmail.com', 'djberg96@gmail.com', 'luislavena@gmail.com', 'c.liam.atherton@gmail.com']
+  s.authors     = ['Park Heesob', 'Daniel Berger', 'Luis Lavena', 'Connor Atherton', 'HD Moore']
+  s.email       = ['phasis@gmail.com', 'djberg96@gmail.com', 'luislavena@gmail.com', 'c.liam.atherton@gmail.com', 'x@hdm.io']
 
   # requirements
   s.required_ruby_version = ">= 1.8.6"
