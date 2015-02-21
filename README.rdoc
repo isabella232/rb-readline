@@ -1,3 +1,7 @@
+= Notice
+
+This is a temporary fork of the real [rb-readline](https://github.com/ConnorAtherton/rb-readline). We are maintaining this fork and the related gem (rb-readline-r7) to resolve compatibility issues beween the Metasploit Framework and the current rb-readline gem.
+
 = Description
 
 The readline library provides a pure Ruby implementation of the GNU
